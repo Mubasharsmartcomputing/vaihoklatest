@@ -1,4 +1,8 @@
-export default function MessageSubsection() {
+interface MessageSubsectionProps {
+  onBack?: () => void;
+}
+
+export default function MessageSubsection(_props: MessageSubsectionProps) {
 
   return (
     <>
