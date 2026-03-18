@@ -7,12 +7,18 @@ import type { Lang } from "../../store";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const M = motion as any;
 
+import flagEn from "../../assets/flags/us.svg";
+import flagEs from "../../assets/flags/co.svg";
+import flagPt from "../../assets/flags/br.svg";
+import flagZh from "../../assets/flags/cn.svg";
+import flagAr from "../../assets/flags/sa.svg";
+
 const flags = {
-    en: "/src/assets/flags/us.svg",
-    es: "/src/assets/flags/co.svg",
-    pt: "/src/assets/flags/br.svg",
-    zh: "/src/assets/flags/cn.svg",
-    ar: "/src/assets/flags/sa.svg",
+    en: flagEn,
+    es: flagEs,
+    pt: flagPt,
+    zh: flagZh,
+    ar: flagAr,
 };
 
 interface LanguageSwitcherProps {

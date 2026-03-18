@@ -12,10 +12,10 @@ import {
   MusicSection,
 } from "./Module";
 
-const buttonIcon = "/src/assets/animicon/button.png";
-const arrowRightIcon = "/src/assets/animicon/arrow-rigth.png";
-const mobileLeftArrow = "/src/assets/images/left_arrow.svg";
-const mobileRightArrow = "/src/assets/images/right_arrow.svg";
+import buttonIcon from "../assets/animicon/button.png";
+import arrowRightIcon from "../assets/animicon/arrow-rigth.png";
+import mobileLeftArrow from "../assets/images/left_arrow.svg";
+import mobileRightArrow from "../assets/images/right_arrow.svg";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const M = motion as any;
